@@ -11,5 +11,5 @@ path-tree = "0.1.12"
 tokio = { version = "1.6.0", features = ["rt", "rt-multi-thread", "net", "macros", "sync", "signal"]}
 tracing-futures = { version = "0.2", features = ["tokio"]}
 handlebars = "4.0"
-
-rhai ={ version = "0.20", features = ["sync", "serde"]}
+serde = {version = "*", features = ["derive"]}
+async-trait = "0.1"
